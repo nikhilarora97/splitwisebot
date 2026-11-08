@@ -1,0 +1,22 @@
+# Credentials, receipt data, local history and compiled scanner
+.env
+.env.*
+!.env.example
+private/
+*.sqlite3
+*.sqlite3-*
+*.db
+*.log
+# Local development
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+*.egg-info/
+build/
+dist/
+# Local screenshots may contain personal information
+*.png
+*.jpg
+*.jpeg
