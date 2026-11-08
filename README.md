@@ -13,10 +13,10 @@ From the cloned repository directory:
 ```sh
 python3 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
-./run.sh
+sh run.sh
 ```
 
-Open [http://localhost:8010](http://localhost:8010). Keep the app running while you use it. Run `./run.sh` again to restart it later. The app listens on this computer only; this link does not provide phone or public access. On Windows, use `.venv\Scripts\python` and run `-m uvicorn splitwise_receipts.server:app --host 127.0.0.1 --port 8010` instead of the shell launcher.
+Open [http://localhost:8010](http://localhost:8010). Keep the app running while you use it. Run `sh run.sh` again to restart it later. The app listens on this computer only; this link does not provide phone or public access. On Windows, use `.venv\Scripts\python` and run `-m uvicorn splitwise_receipts.server:app --host 127.0.0.1 --port 8010` instead of the shell launcher.
 
 ## Connect your own accounts
 
